@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="row mt-5">
+    <div class="col-sm-6 offset-sm-3">
+     <div class="card">
+       <div class="card-header text-center bg-warning">
+       <h3>Temperature converter</h3>
+       </div>
+       <div class="card-body">
+       <label>Temperature(&deg;C)</label> 
+        <input type="number" class="form-control" (input)="update1()"  [(ngModel)]="c">
+       <label>Temperature(&deg;F)</label> 
+        <input type="number" class="form-control" (input)="update2()" [(ngModel)]="f">
+       <label>Temperature(&deg;K)</label> 
+        <input type="number" class="form-control" (input)="update3()" [(ngModel)]="k">
+        </div>
+        <div class="card-footer text-center" style="color:rgb(150,255,0);background-color:black">
+          Developed by hacker99
+        </div>
+       </div>
+     </div>
+     </div>
+  </div>
